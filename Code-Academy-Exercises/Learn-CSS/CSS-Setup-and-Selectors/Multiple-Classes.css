@@ -1,0 +1,13 @@
+p {
+  font-family: Arial;
+}
+h1 {
+  color: maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+<!-- I learned that you can add more than one class to an html element class in order to mix and match css styles -->
