@@ -1,0 +1,20 @@
+p {
+  font-family: Arial;
+}
+h1 {
+  color: maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+#article-title {
+font-family: cursive;
+text-transform: capitalize;
+}
+.publish-time {
+color: gray;
+}
+<!-- I learned that you can use multiple classes to mix and match styling techniques but that ID should only be used once because they override all styling -->
