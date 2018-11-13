@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row: 5 / 7;
+  grid-column: 1 / span 2;
+}
+
+.b {
+  grid-column: 2 / span 6;
+  grid-row: 2 / span 3;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+<!-- I learned how to use the grid-column property to creat columns to take up various sizes in the column and row. I also learned how to use the span function in both the row and column sizing to span various amounts of rows or columns to create unique sizes -->
