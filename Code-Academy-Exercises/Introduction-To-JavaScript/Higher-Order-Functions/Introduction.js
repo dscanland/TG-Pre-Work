@@ -1,0 +1,1 @@
+// I learned that you can make functions into abstractions in order to make the code more legible. And that there are higher-order functions that can accept other functions into their argument, which makes it easier to build abstractions on abstractions
